@@ -86,6 +86,7 @@ namespace weight
                         buf[j++] = buf1[i];
                     }
 
+
                 }
 
                 len = j;
