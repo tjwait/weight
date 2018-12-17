@@ -66,7 +66,6 @@
             this.button21 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button24 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -449,21 +448,11 @@
             this.textBox4.Size = new System.Drawing.Size(121, 34);
             this.textBox4.TabIndex = 32;
             // 
-            // button24
-            // 
-            this.button24.Location = new System.Drawing.Point(438, 241);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(147, 23);
-            this.button24.TabIndex = 32;
-            this.button24.Text = "测试分支用的按钮";
-            this.button24.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1159, 309);
-            this.Controls.Add(this.button24);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.numericUpDown2);
@@ -544,7 +533,6 @@
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button24;
     }
 }
 
