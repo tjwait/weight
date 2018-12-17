@@ -61,11 +61,12 @@
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.button20 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.button24 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -114,18 +115,19 @@
             // button3
             // 
             this.button3.Enabled = false;
-            this.button3.Location = new System.Drawing.Point(163, 68);
+            this.button3.Location = new System.Drawing.Point(28, 92);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(88, 31);
             this.button3.TabIndex = 6;
             this.button3.Text = "去皮";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Visible = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox3.Location = new System.Drawing.Point(26, 102);
+            this.textBox3.Location = new System.Drawing.Point(311, 65);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(121, 34);
             this.textBox3.TabIndex = 7;
@@ -134,23 +136,25 @@
             // button4
             // 
             this.button4.Enabled = false;
-            this.button4.Location = new System.Drawing.Point(163, 105);
+            this.button4.Location = new System.Drawing.Point(28, 129);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(88, 31);
             this.button4.TabIndex = 8;
             this.button4.Text = "校准";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
             this.button5.Enabled = false;
-            this.button5.Location = new System.Drawing.Point(257, 68);
+            this.button5.Location = new System.Drawing.Point(122, 92);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(88, 31);
             this.button5.TabIndex = 9;
             this.button5.Text = "单次读取";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Visible = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label2
@@ -179,12 +183,13 @@
             // button6
             // 
             this.button6.Enabled = false;
-            this.button6.Location = new System.Drawing.Point(257, 105);
+            this.button6.Location = new System.Drawing.Point(122, 129);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(88, 31);
             this.button6.TabIndex = 12;
             this.button6.Text = "连续读取";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Visible = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
@@ -397,32 +402,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "业务展示";
             // 
-            // textBox4
+            // button23
             // 
-            this.textBox4.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox4.Location = new System.Drawing.Point(15, 32);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(121, 34);
-            this.textBox4.TabIndex = 32;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(142, 42);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 15);
-            this.label3.TabIndex = 33;
-            this.label3.Text = "物品重量 g";
-            // 
-            // button21
-            // 
-            this.button21.Location = new System.Drawing.Point(265, 26);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(88, 31);
-            this.button21.TabIndex = 32;
-            this.button21.Text = "1 校准";
-            this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.button21_Click);
+            this.button23.Location = new System.Drawing.Point(265, 103);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(88, 31);
+            this.button23.TabIndex = 35;
+            this.button23.Text = "3 称重";
+            this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button22
             // 
@@ -434,21 +422,48 @@
             this.button22.UseVisualStyleBackColor = true;
             this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
-            // button23
+            // button21
             // 
-            this.button23.Location = new System.Drawing.Point(265, 103);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(88, 31);
-            this.button23.TabIndex = 35;
-            this.button23.Text = "3 称重";
-            this.button23.UseVisualStyleBackColor = true;
-            this.button23.Click += new System.EventHandler(this.button23_Click);
+            this.button21.Location = new System.Drawing.Point(265, 26);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(88, 31);
+            this.button21.TabIndex = 32;
+            this.button21.Text = "1 校准";
+            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(142, 42);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(83, 15);
+            this.label3.TabIndex = 33;
+            this.label3.Text = "物品重量 g";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox4.Location = new System.Drawing.Point(15, 32);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(121, 34);
+            this.textBox4.TabIndex = 32;
+            // 
+            // button24
+            // 
+            this.button24.Location = new System.Drawing.Point(438, 241);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(147, 23);
+            this.button24.TabIndex = 32;
+            this.button24.Text = "测试分支用的按钮";
+            this.button24.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1159, 309);
+            this.Controls.Add(this.button24);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.numericUpDown2);
@@ -529,6 +544,7 @@
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button button24;
     }
 }
 
